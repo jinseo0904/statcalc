@@ -1,0 +1,98 @@
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+    margin-bottom: 1vh;
+    font-family: 'Lato';
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.calcWrapper {
+    border-radius: 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column; /* Align children vertically */
+    justify-content: center; /* Center children horizontally */
+    align-items: center; /* Center children vertically */
+
+    min-height: 40vh;
+    background-color: #464866;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.radioContainer {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.result {
+    background-color: lightgrey;
+    width: 70%;
+    font-size: 30px;
+    margin-bottom: 20px; /* Adjust the value as needed */
+    border-radius: 10px;
+}
+
+.radioResult {
+    background-color: lightgrey;
+    width: 70%;
+    font-size: 30px;
+    margin-bottom: 20px; /* Adjust the value as needed */
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.calcButton {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: 'Lato-Bold';
+    font-size: 20px;
+
+    background-color: #29648A;
+    border: 0;
+    color: white;
+
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+/* Button hover effects */
+.calcButton:hover {
+    transform: scale(1.1);
+    background-color: #2E9CCA;
+    color: white;
+}
+
+.numberEntry {
+    border-radius: 2px;
+    border: 0;
+    margin-top: 3px;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+font-family: 'Lato-Bold';
+src: url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: bold;
+}
+  

@@ -1,0 +1,28 @@
+.NavBar {
+    background-color: #14152e;
+    color: white;
+    width: 100%;
+    margin-top: 100px;
+    font-family: Lato;
+
+    display: flex;
+    flex-direction: row; /* Align children vertically */
+}
+
+.p1 {
+    margin-left: 3%;
+}
+
+.ghLogo {
+    display: flex;
+    align-items: center; /* This aligns the child vertically in the center */
+    justify-content: center; /* This centers the child horizontally, optional */
+    margin-left: 1%;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

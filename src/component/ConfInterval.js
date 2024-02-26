@@ -29,7 +29,7 @@ const ConfInterval = () => {
     
 
     return <div className={styles.wrapper}>
-        <div className={styles.calcWrapper}>
+        <div className={`${styles.calcWrapper} ${styles.boxShadow}`}>
         <h1 style={{
             color: 'white',
             marginLeft: '20px',

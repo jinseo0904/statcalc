@@ -5,6 +5,7 @@ import InvNorm from './component/InvNorm';
 import ConfInterval from './component/ConfInterval';
 import { ReactComponent as StatIcon } from './favicon.svg';
 import ProportionSE from './component/ProportionSE';
+import BottomNavBar from './component/BottomNavBar';
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <ConfInterval />
         <ProportionSE />
       </div>
+      <BottomNavBar/>
     </div>
   );
 }

@@ -24,7 +24,7 @@ const ConfInterval = () => {
         // also set the bracket notation result
         const lowerBound = Number(input3) - Number(MOE);
         const upperBound = Number(input3) + Number(MOE);
-        setResult(`(${lowerBound}, ${upperBound})`);
+        setResult(`(${lowerBound.toFixed(3)}, ${upperBound.toFixed(3)})`);
     }
     
 

@@ -15,7 +15,7 @@ function App() {
       <div style={{ display: 'flex', alignItems: 'center', color: 'white', fontFamily: 'Lato' }}>
         <StatIcon width="150" height="150" />
         {/* Text */}
-        <h1 style={{ fontSize: '50px', marginLeft: '10px' }}>Statistics Calculator</h1>
+        <h1 style={{ fontSize: '90px', marginLeft: '10px' }}>Statistics Calculator</h1>
       </div>
       <div className='calcFirstLayer'>
       <NormalCdf />
